@@ -4,7 +4,8 @@ This small extensions adds an authenticator to Keycloak that allows you to set t
 
 # Installation guide
 
-1. Move the .jar file to `/opt/keycloak/providers/`
+1. Move the `.jar` file to `/opt/keycloak/providers/`
+2. Make sure it is loaded correctly by checking the provider info in the admin-console
 2. Enable `Terms and Conditions` for your realm
 3. Add `Set Terms and Conditions` to your custom authentication flow
 4. Set the execution to `Required`
